@@ -15,7 +15,7 @@ class Product(Resource):
         }
 
 # Create routes
-api.add_resource(Product, '/')
+api.add_resource(Product, '/products')
 
 # Run the application
 if __name__ == '__main__':
